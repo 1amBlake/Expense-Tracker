@@ -1,2 +1,5 @@
 07.05.2026
 - Phác thảo sơ lược về các giai đoạn
+
+09.05.2026
+- Tạo SRS document, làm xong mục tiêu và phân tích yêu cầu chức năng của hệ thống
