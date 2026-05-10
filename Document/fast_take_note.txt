@@ -1,0 +1,97 @@
+-	Quản Lý Tài Khoản 
+o	Đăng Ký (v1)
+o	Đăng Nhập (v1)
+o	Đăng Xuất (v1)
+o	Quên Mật Khẩu (future)
+o	Đổi Mật Khẩu (v1)
+o	Cập Nhật Thông Tin Cá Nhân (v1)
+
+-	Quản Lý Chi Tiêu
+o	Thêm - Xóa - Sửa Khoản Chi Tiêu (v1)
+o	Xem Danh Sách Chi Tiêu (v1)
+o	Lọc Giao Dịch (v1)
+	Thời Gian
+	Danh Mục
+	Nguồn Tiền
+o	Tìm Kiếm Giao Dịch (v1)
+o	Ghi Chú Giao Dịch (v1)
+o	Đính Kèm Hình Ảnh (future)
+
+-	Quản Lý Danh Mục Chi Tiêu
+o	Thêm - Xóa - Sửa Danh Mục Chi Tiêu (v1)
+o	Phân Loại Danh Mục (v1)
+	Ăn Uống
+	Giáo Dục
+	Giải Trí
+	Học Tập
+	Thể Thao
+	Công Việc
+	Khác
+o	Sử Dụng Danh Mục Mặc Định (Khác) (v1)
+-	Quản Lý Thu Nhập
+o	Thêm - Xóa - Sửa Khoản Thu Nhập (v1)
+o	Xem Danh Sách Thu Nhập (v1)
+o	Lọc Thu Nhập: (v1)
+	Danh Mục
+	Nguồn Tiền
+	Thời Gian
+o	Tìm Kiếm Thu Nhập (v1)
+o	Ghi Chú Thu Nhập (v1)
+-	Quản Lý Danh Mục Thu Nhập
+o	Thêm - Xóa - Sửa Danh Mục Thu Nhập (v1)
+o	Phân Loại Danh Mục (v1)
+	Công Việc
+	Đầu Tư
+	Thu Nợ
+	Khác
+o	Sử Dụng Danh Mục Mặc Định (Khác) (v1)
+-	Quản Lý Nguồn Tiền
+o	Thêm - Xóa - Sửa Nguồn Tiền (v1)
+o	Theo Dõi Số Dư (v1)
+o	Hỗ Trợ Nhiều Loại Nguồn: (v1)
+	Ví
+	Ví Điện Tử
+	Tiết Kiệm
+	Khoản Nợ
+o	Thêm - Xóa QR Code Với Nguồn Ví Điện Tử (future)
+-	Quản Lý Chuyển Tiền Nội Bộ 
+o	Chuyển Tiền Giữa Các Nguồn (v1)
+o	Lưu Lịch Sử Chuyển Tiền (v1)
+-	Quản Lý Chi Phí Cố Định
+o	Tạo Khoản Chi Định Kỳ (v1)
+o	Thiết Lập Chu Kỳ (v1)
+	Ngày
+	Tuần
+	Tháng
+	Năm
+	Chưa Thiết Lập
+o	Nhắc Nhở Thanh Toán (v1)
+-	Quản Lý Ngân Sách 
+o	Thêm - Xóa - Sửa Ngân Sách (v1)
+o	Phân Loại Danh Mục (Giống Chi Tiêu) (v1)
+o	Lọc Ngân Sách Theo Danh Mục (v1)
+o	Thiết Lập Chu Kỳ Tái Lập (v1)
+	Ngày
+	Tuần
+	Tháng
+	Năm
+-	Cảnh Báo & Nhắc Nhở
+o	Bật Tắt Cảnh Báo & Nhắc Nhở (v1)
+o	Cảnh Báo Vượt Ngân Sách (v1)
+o	Nhắc Đến Hạn Thanh Toán (v1)
+-	Báo Cáo - Thống Kê
+o	Xem Báo Cáo Chi Tiết Theo Ngày - Tuần - Tháng - Năm (v1)
+o	Hiển Thị Biểu Đồ Trực Quan (v1)
+o	Thống Kê Theo Danh Mục (v1)
+o	Thống Kê Theo Nguồn Tiền (v1)
+o	Xem Tổng Thu / Tổng Chi (future)
+o	Xuất File (CSV) (future)
+-	Dashboard 
+o	Hiển Thị Tổng Quan Tài Chính (v1)
+o	Hiển Thị Tổng Thu / Tổng Chi (v1)
+o	Hiển Thị Số Dư Hiện Tại (v1)
+o	Hiển Thị Giao Dịch Gần Đây (v1)
+-	Sao Lưu & Khôi Phục Dữ Liệu 
+o	Xuất Dữ Liệu (future)
+o	Nhập Dữ Liệu (future)
+o	Khôi Phục Dữ Liệu Từ File Backup (future)
