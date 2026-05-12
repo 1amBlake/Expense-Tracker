@@ -16,3 +16,9 @@
 	QT Đăng Ký
 	QT Đăng Nhập
 	QT Tạo Khoản Chi Tiêu
+	
+13.05.2026
+- Làm sơ về các quy trình nghiệp vụ chính 00:26
+- Làm kỹ quy trình nghiệp vụ 00:26
+	1.4.1 BP-ACC
+	1.4.2 BP-ET
