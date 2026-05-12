@@ -1,113 +1,126 @@
--	Quản Lý Tài Khoản 
-o	Đăng Ký (v1)
-o	Đăng Nhập (v1)
-o	Đăng Xuất (v1)
-o	Quên Mật Khẩu (future)
-o	Đổi Mật Khẩu (v1)
-o	Cập Nhật Thông Tin Cá Nhân (v1)
+QTNV
+- Đăng Ký Tài Khoản
+Nhập thông tin
+→ Validate
+→ Kiểm tra trùng email/username
+→ Mã hóa mật khẩu
+→ Tạo tài khoản
+→ Thành công
 
--	Quản Lý Chi Tiêu
-o	Thêm - Xóa - Sửa Khoản Chi Tiêu (v1)
-o	Xem Danh Sách Chi Tiêu (v1)
-o	Lọc Giao Dịch (v1)
-	Thời Gian
-	Danh Mục
-	Nguồn Tiền
-o	Tìm Kiếm Giao Dịch (v1)
-o	Ghi Chú Giao Dịch (v1)
-o	Đính Kèm Hình Ảnh (future)
+- Đăng Nhập
+Nhập username/email + password
+→ Kiểm tra tồn tại
+→ Verify password
+→ Tạo session
+→ Vào hệ thống
 
--	Quản Lý Danh Mục Chi Tiêu
-o	Thêm - Xóa - Sửa Danh Mục Chi Tiêu (v1)
-o	Phân Loại Danh Mục (v1)
-	Ăn Uống
-	Giáo Dục
-	Giải Trí
-	Học Tập
-	Thể Thao
-	Công Việc
-	Khác
-o	Sử Dụng Danh Mục Mặc Định (Khác) (v1)
--	Quản Lý Thu Nhập
-o	Thêm - Xóa - Sửa Khoản Thu Nhập (v1)
-o	Xem Danh Sách Thu Nhập (v1)
-o	Lọc Thu Nhập: (v1)
-	Danh Mục
-	Nguồn Tiền
-	Thời Gian
-o	Tìm Kiếm Thu Nhập (v1)
-o	Ghi Chú Thu Nhập (v1)
--	Quản Lý Danh Mục Thu Nhập
-o	Thêm - Xóa - Sửa Danh Mục Thu Nhập (v1)
-o	Phân Loại Danh Mục (v1)
-	Công Việc
-	Đầu Tư
-	Thu Nợ
-	Khác
-o	Sử Dụng Danh Mục Mặc Định (Khác) (v1)
--	Quản Lý Nguồn Tiền
-o	Thêm - Xóa - Sửa Nguồn Tiền (v1)
-o	Theo Dõi Số Dư (v1)
-o	Hỗ Trợ Nhiều Loại Nguồn: (v1)
-	Ví
-	Ví Điện Tử
-	Tiết Kiệm
-	Khoản Nợ
-o	Thêm - Xóa QR Code Với Nguồn Ví Điện Tử (future)
--	Quản Lý Chuyển Tiền Nội Bộ 
-o	Chuyển Tiền Giữa Các Nguồn (v1)
-o	Lưu Lịch Sử Chuyển Tiền (v1)
--	Quản Lý Chi Phí Cố Định
-o	Tạo Khoản Chi Định Kỳ (v1)
-o	Thiết Lập Chu Kỳ (v1)
-	Ngày
-	Tuần
-	Tháng
-	Năm
-	Chưa Thiết Lập
-o	Nhắc Nhở Thanh Toán (v1)
--	Quản Lý Ngân Sách 
-o	Thêm - Xóa - Sửa Ngân Sách (v1)
-o	Phân Loại Danh Mục (Giống Chi Tiêu) (v1)
-o	Lọc Ngân Sách Theo Danh Mục (v1)
-o	Thiết Lập Chu Kỳ Tái Lập (v1)
-	Ngày
-	Tuần
-	Tháng
-	Năm
--	Cảnh Báo & Nhắc Nhở
-o	Bật Tắt Cảnh Báo & Nhắc Nhở (v1)
-o	Cảnh Báo Vượt Ngân Sách (v1)
-o	Nhắc Đến Hạn Thanh Toán (v1)
--	Báo Cáo - Thống Kê
-o	Xem Báo Cáo Chi Tiết Theo Ngày - Tuần - Tháng - Năm (v1)
-o	Hiển Thị Biểu Đồ Trực Quan (v1)
-o	Thống Kê Theo Danh Mục (v1)
-o	Thống Kê Theo Nguồn Tiền (v1)
-o	Xem Tổng Thu / Tổng Chi (future)
-o	Xuất File (CSV) (future)
--	Dashboard 
-o	Hiển Thị Tổng Quan Tài Chính (v1)
-o	Hiển Thị Tổng Thu / Tổng Chi (v1)
-o	Hiển Thị Số Dư Hiện Tại (v1)
-o	Hiển Thị Giao Dịch Gần Đây (v1)
--	Sao Lưu & Khôi Phục Dữ Liệu 
-o	Xuất Dữ Liệu (future)
-o	Nhập Dữ Liệu (future)
-o	Khôi Phục Dữ Liệu Từ File Backup (future)
+- Tạo Khoản Chi Tiêu
+Nhập chi tiêu
+→ Validate dữ liệu
+→ Kiểm tra nguồn tiền
+→ Kiểm tra số dư
+→ Kiểm tra ngân sách
+→ Lưu expense
+→ Trừ số dư nguồn tiền
+→ Cập nhật ngân sách
+→ Cập nhật thống kê
+→ Lưu lịch sử
 
-BR-SD-1. Dữ liệu bị xóa sẽ không bị loại bỏ hoàn toàn khỏi hệ thống mà được chuyển vào thùng rác tạm thời.
+- Tạo Khoản Thu Nhập
+Nhập thu nhập
+→ Validate
+→ Kiểm tra nguồn tiền
+→ Lưu income
+→ Cộng số dư nguồn tiền
+→ Cập nhật thống kê
+→ Lưu lịch sử
 
-BR-SD-2. Dữ liệu đã bị xóa mềm không được phép chỉnh sửa nếu chưa được khôi phục.
+- Chuyển Tiền Nội Bộ
+Chọn nguồn gửi
+→ Chọn nguồn nhận
+→ Validate
+→ Kiểm tra số dư
+→ Trừ nguồn gửi
+→ Cộng nguồn nhận
+→ Lưu transfer
+→ Lưu lịch sử
 
-BR-SD-3. Dữ liệu đã bị xóa mềm không được hiển thị trong danh sách hoạt động mặc định của hệ thống.
+- Tạo/Quản Lý Ngân Sách
+Tạo ngân sách
+→ Chọn chu kỳ
+→ Nhập giới hạn
+→ Validate
+→ Lưu ngân sách
 
-BR-SD-4. Người dùng được phép khôi phục dữ liệu đã bị xóa mềm trong thời gian hệ thống cho phép.
+- Kiểm Tra Ngân Sách Khi Chi Tiêu
+Tạo expense
+→ Có ngân sách?
+    → Không → lưu
+    → Có
+        → Tính usage
+        → Vượt ngưỡng?
+             → Cảnh báo
+        → Vượt ngân sách?
+             → Đánh dấu over-budget
+→ Lưu
 
-BR-SD-5. Khi dữ liệu được khôi phục, trạng thái và liên kết liên quan phải được phục hồi tương ứng.
+- Giao Dịch Định Kỳ
+Scheduler chạy
+→ Kiểm tra recurring đến hạn
+→ Active?
+→ Auto hay manual?
+    → Manual → gửi thông báo
+    → Auto
+         → Kiểm tra số dư
+         → Tạo transaction
+         → Cập nhật balance
+         → Lưu history
+		 
+- Soft Delete
+Người dùng xóa transaction
+→ Chuyển deleted = true
+→ Cập nhật balance
+→ Cập nhật budget
+→ Chuyển recycle bin
 
-BR-SD-6. Dữ liệu bị xóa mềm có thể bị xóa vĩnh viễn khỏi hệ thống bởi người dùng hoặc hệ thống.
+- Restore
+Restore transaction
+→ deleted = false
+→ Recalculate balance
+→ Recalculate budget
+→ Restore history
 
-BR-SD-7. Các dữ liệu liên kết với bản ghi bị xóa mềm phải được xử lý tương ứng theo quy tắc nghiệp vụ của từng chức năng.
+- Sao Lưu Dữ Liệu
+Chọn backup
+→ Validate dữ liệu
+→ Export DB/file
+→ Thông báo thành công
 
-BR-SD-8. Người dùng chỉ được phép xem và khôi phục dữ liệu đã xóa thuộc tài khoản của chính mình.
+- Khôi Phục Dữ Liệu
+Chọn file backup
+→ Validate format
+→ Kiểm tra version
+→ Confirm overwrite
+→ Restore data
+→ Reload hệ thống
+
+- Xem Báo Cáo Thống Kê
+Chọn khoảng thời gian
+→ Query dữ liệu
+→ Tính toán
+→ Group dữ liệu
+→ Render chart/statistics
+
+BR-ACC-<num>	Đại diện cho các quy tắc nghiệp vụ liên quan đến Tài Khoản
+BR-ET-<num>	Đại diện cho các quy tắc nghiệp vụ liên quan đến Quản Lý Chi Tiêu (Expense Transaction)
+BR-CATE-<num>	Đại diện cho các quy tắc nghiệp vụ liên quan đến Quản Lý Danh Mục Chi Tiêu
+BR-IT-<num>	Đại diện cho các quy tắc nghiệp vụ liên quan đến Quản Lý Thu Nhập (Income Transaction)
+BR-CATI-<num>	Đại diện cho các quy tắc nghiệp vụ liên quan đến Quản Lý Danh Mục Thu Nhập
+BR-SM-<num>	Đại diện cho các quy tắc nghiệp vụ liên quan đến Quản Lý Nguồn Tiền
+BR-TF-<num>	Đại diện cho các quy tắc nghiệp vụ liên quan đến Chuyển Tiền Nội Bộ
+BR-BUD-<num>	Đại diện cho các quy tắc nghiệp vụ liên quan đến Quản Lý Ngân Sách
+BR-RE-<num>	Đại diện cho các quy tắc nghiệp vụ liên quan đến Quản Lý Chi Phí Cố Định / Giao Dịch Định Kỳ
+BR-SRP-<num>	Đại diện cho các quy tắc nghiệp vụ liên quan đến Thống Kê và Báo Cáo
+BR-BUR-<num>	Đại diện cho các quy tắc nghiệp vụ liên quan đến Sao Lưu và Khôi Phục Dữ Liệu
+BR-SD-<num>	Đại diện cho các quy tắc nghiệp vụ liên quan đến Xóa Mềm (Soft Delete)
+BR-HIS-<num>	Đại diện cho các quy tắc nghiệp vụ liên quan đến Lịch Sử Giao Dịch
