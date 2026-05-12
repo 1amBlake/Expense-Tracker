@@ -95,3 +95,19 @@ o	Hiển Thị Giao Dịch Gần Đây (v1)
 o	Xuất Dữ Liệu (future)
 o	Nhập Dữ Liệu (future)
 o	Khôi Phục Dữ Liệu Từ File Backup (future)
+
+BR-SD-1. Dữ liệu bị xóa sẽ không bị loại bỏ hoàn toàn khỏi hệ thống mà được chuyển vào thùng rác tạm thời.
+
+BR-SD-2. Dữ liệu đã bị xóa mềm không được phép chỉnh sửa nếu chưa được khôi phục.
+
+BR-SD-3. Dữ liệu đã bị xóa mềm không được hiển thị trong danh sách hoạt động mặc định của hệ thống.
+
+BR-SD-4. Người dùng được phép khôi phục dữ liệu đã bị xóa mềm trong thời gian hệ thống cho phép.
+
+BR-SD-5. Khi dữ liệu được khôi phục, trạng thái và liên kết liên quan phải được phục hồi tương ứng.
+
+BR-SD-6. Dữ liệu bị xóa mềm có thể bị xóa vĩnh viễn khỏi hệ thống bởi người dùng hoặc hệ thống.
+
+BR-SD-7. Các dữ liệu liên kết với bản ghi bị xóa mềm phải được xử lý tương ứng theo quy tắc nghiệp vụ của từng chức năng.
+
+BR-SD-8. Người dùng chỉ được phép xem và khôi phục dữ liệu đã xóa thuộc tài khoản của chính mình.
