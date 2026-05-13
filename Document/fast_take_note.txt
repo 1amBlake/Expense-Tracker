@@ -1,88 +1,4 @@
 
--	Quản Lý Tài Khoản 
-o	Đăng Ký (v1)
-o	Đăng Nhập (v1)
-o	Đăng Xuất (v1)
-o	Quên Mật Khẩu (future)
-o	Đổi Mật Khẩu (v1)
-o	Cập Nhật Thông Tin Cá Nhân (v1)
-BR-ACC-1. Người dùng phải đăng nhập vào hệ thống trước khi sử dụng các chức năng của chương trình.
-BR-ACC-2. Email / Username được đăng ký cho tài khoản không được trùng với tài khoản đã tồn tại trong hệ thống.
-BR-ACC-3. Mật khẩu phải chứa tối thiểu 6 ký tự.
-BR-ACC-4. Username phải chứa tối thiểu 3 ký tự.
-BR-ACC-5. Email phải đúng định dạng hợp lệ.
-BR-ACC-6. Khi người dùng đăng ký tài khoản, cần nhập tất cả thông tin yêu cầu.
-BR-ACC-7. Người dùng đăng nhập bằng username/email và mật khẩu.
-BR-ACC-8. Tài khoản đăng nhập phải tồn tại trong hệ thống.
-BR-ACC-9. Mật khẩu phải khớp với tài khoản tương ứng trong hệ thống.
-BR-ACC-10. Trên một thiết bị chỉ được tồn tại một phiên đăng nhập tại một thời điểm.
-BR-ACC-11. Khi người dùng đăng xuất, thông tin phiên đăng nhập phải được xóa.
-BR-ACC-12. Khi người dùng sử dụng chức năng quên mật khẩu, cần nhập gmail đã đăng ký (future).
-BR-ACC-13. Người dùng phải nhập đúng mã OTP hoặc xác thực thành công để sử dụng chức năng quên mật khẩu (future).
-BR-ACC-14.  Mật khẩu được thay đổi không được trùng với 3 mật khẩu gần nhất, bao gồm cả mật khẩu hiện tại (future).
-BR-ACC-15. Mật khẩu phải được mã hóa khi lưu trữ.
-BR-ACC-16. Mật khẩu không được lưu trữ dưới dạng plain text, hay chữ thông thường.
-
--	Quản Lý Chi Tiêu
-o	Thêm - Xóa - Sửa Khoản Chi Tiêu (v1)
-o	Xem Danh Sách Chi Tiêu (v1)
-o	Lọc Giao Dịch (v1)
-	Thời Gian
-	Danh Mục
-	Nguồn Tiền
-o	Tìm Kiếm Giao Dịch (v1)
-o	Ghi Chú Giao Dịch (v1)
-o	Đính Kèm Hình Ảnh (future)
-BR-ET-1. Mỗi khoản chi tiêu phải được gán cho một danh mục. Nếu người dùng không chọn danh mục, hệ thống sẽ tự động gán danh mục mặc định là “Khác”.
-BR-ET-2. Mỗi khoản chi tiêu phải được liên kết với một nguồn tiền.
-BR-ET-3. Khoản chi tiêu phải là số dương.
-BR-ET-4. Mỗi khoản chi tiêu chỉ được gán với một danh mục tại một thời điểm.
-BR-ET-5. Khi khoản chi tiêu được tạo hoặc cập nhật, dữ liệu liên quan như nguồn tiền và ngân sách phải được cập nhật tương ứng.
-BR-ET-6. Khi khoản chi tiêu bị xóa, dữ liệu liên quan phải được cập nhật tương ứng.
-BR-ET-7. Khi đến hạn khoản chi định kỳ, hệ thống phải cho phép tạo khoản chi tiêu mới hoặc tự động tạo khoản chi tiêu tương ứng.
-BR-ET-8. Khoản chi tiêu không được vượt quá số dư hiện tại của nguồn tiền tương ứng.
-BR-ET-9. Thời gian của khoản chi tiêu không được lớn hơn thời gian hiện tại của hệ thống.
-BR-ET-10. Người dùng chỉ được phép xem và thao tác với các khoản chi tiêu thuộc tài khoản của chính mình.
-BR-ET-12. Nội dung ghi chú của khoản chi tiêu không được vượt quá giới hạn ký tự hệ thống cho phép.
-BR-ET-13. Khoản chi tiêu định kỳ phải có chu kỳ lặp hợp lệ.
-BR-ET-14. Khoản chi tiêu đã bị xóa không được phép chỉnh sửa nếu chưa khôi phục.
-BR-ET-15. Khoản chi tiêu có tên tối đa 100 ký tự. Nếu người dùng chưa đặt cho cho khoản chi tiêu, chương trình sẽ cấp tên “Chi Tiêu Chưa Rõ <Số>”, với số tăng dần theo số lượng chi tiêu.
-
--	Quản Lý Danh Mục Chi Tiêu
-o	Thêm - Xóa - Sửa Danh Mục Chi Tiêu (v1)
-o	Phân Loại Danh Mục (v1)
-	Ăn Uống
-	Giáo Dục
-	Giải Trí
-	Học Tập
-	Thể Thao
-	Công Việc
-	Khác
-o	Sử Dụng Danh Mục Mặc Định (Khác) (v1)
-
-BR-CATE-1. Hệ thống phải cung cấp các danh mục mặc định gồm:
-“Ăn Uống, Học Tập, Giáo Dục, Giải Trí, Thể Thao, Công Việc, Khác”..
-BR-CATE-2. “Khác” là danh mục mặc định của hệ thống.
-BR-CATE-3. Người dùng không được phép xóa các danh mục gốc
-BR-CATE-4. Người dùng được phép tạo danh mục mới.
-BR-CATE-5. Tên danh mục không được vượt quá 25 ký tự.
-BR-CATE-6. Khi danh mục tự tạo bị xóa, các khoản chi tiêu liên kết sẽ được chuyển sang danh mục mặc định “Khác” nếu người dùng không chọn danh mục thay thế.
-BR-CATE-7. Khi danh mục được cập nhật, các khoản chi tiêu liên kết phải được cập nhật tương ứng.
-BR-CATE-8. Tên danh mục không được trùng với danh mục đã tồn tại trong cùng loại danh mục.
-BR-CATE-9. Nếu tên danh mục trống, chương trình sẽ tự đặt tên thành “Danh Mục Chi Tiêu <Số>” với số tăng dần theo số lượng danh mục chưa đặt tên.
-BR-CATE-10. Người dùng chỉ được phép thao tác với danh mục do chính mình tạo.
-BR-CATE-11. Người dùng không được phép chỉnh sửa các danh mục mặc định của hệ thống.
-
-
--	Quản Lý Thu Nhập
-o	Thêm - Xóa - Sửa Khoản Thu Nhập (v1)
-o	Xem Danh Sách Thu Nhập (v1)
-o	Lọc Thu Nhập: (v1)
-	Danh Mục
-	Nguồn Tiền
-	Thời Gian
-o	Tìm Kiếm Thu Nhập (v1)
-o	Ghi Chú Thu Nhập (v1)
 -	Quản Lý Danh Mục Thu Nhập
 o	Thêm - Xóa - Sửa Danh Mục Thu Nhập (v1)
 o	Phân Loại Danh Mục (v1)
@@ -91,6 +7,21 @@ o	Phân Loại Danh Mục (v1)
 	Thu Nợ
 	Khác
 o	Sử Dụng Danh Mục Mặc Định (Khác) (v1)
+
+BR-CATI-1. Hệ thống phải cung cấp các danh mục mặc định gồm:
+“Công Việc, Đầu Tư, Thu Nợ, Khác”.
+BR-CATI-2. “Khác” là danh mục mặc định của hệ thống.
+BR-CATI-3. Người dùng không được phép xóa các danh mục gốc
+BR-CATI-4. Người dùng được phép tạo danh mục mới.
+BR-CATI-5. Tên danh mục không được vượt quá 25 ký tự.
+BR-CATI-6. Khi danh mục tự tạo bị xóa, các khoản thu nhập liên kết sẽ được chuyển sang danh mục mặc định “Khác” nếu người dùng không chọn danh mục thay thế.
+BR-CATI-7. Khi danh mục được cập nhật, các khoản thu nhập liên kết phải được cập nhật tương ứng.
+BR-CATI-8. Tên danh mục không được trùng với danh mục đã tồn tại trong cùng loại danh mục.
+BR-CATI-9. Nếu tên danh mục trống, chương trình sẽ tự đặt tên thành “Danh Mục Thu Nhập <Số>” với số tăng dần theo số lượng danh mục chưa đặt tên.
+BR-CATI-10. Người dùng chỉ được phép thao tác với danh mục do chính mình tạo.
+BR-CATI-11. Người dùng không được phép chỉnh sửa các danh mục mặc định của hệ thống.
+
+
 -	Quản Lý Nguồn Tiền
 o	Thêm - Xóa - Sửa Nguồn Tiền (v1)
 o	Theo Dõi Số Dư (v1)
@@ -100,6 +31,7 @@ o	Hỗ Trợ Nhiều Loại Nguồn: (v1)
 	Tiết Kiệm
 	Khoản Nợ
 o	Thêm - Xóa QR Code Với Nguồn Ví Điện Tử (future)
+
 -	Quản Lý Chuyển Tiền Nội Bộ 
 o	Chuyển Tiền Giữa Các Nguồn (v1)
 o	Lưu Lịch Sử Chuyển Tiền (v1)
@@ -142,3 +74,75 @@ o	Xuất Dữ Liệu (future)
 o	Nhập Dữ Liệu (future)
 o	Khôi Phục Dữ Liệu Từ File Backup (future)
 
+BP-CATE-1. Quy trình Tạo Danh Mục Chi Tiêu
+-	Người dùng nhấn tạo danh mục chi tiêu
+-	Người dùng nhập và chọn các thông tin cần thiết
+o	Tên danh mục chi tiêu
+-	Kiểm tra xác thực dữ liệu đầu vào của danh mục chi tiêu đang tạo
+o	Nếu người dùng không nhập tên cho danh mục chi tiêu, khởi tạo tên danh mục chi tiêu theo mẫu
+o	Tên không được vượt quá 25 ký tự
+o	Kiểm tra trùng danh mục trong hệ thống
+-	Lưu danh mục chi tiêu mới vào hệ thống
+-	Thông báo tạo thành công
+BP-CATE-2. Quy trình Xóa Danh Mục Tự Tạo
+-	Người dùng chọn danh mục chi tiêu cần xóa
+-	Kiểm tra loại danh mục
+o	Nếu danh mục mặc định, hiện thông báo danh không thể xóa
+o	Nếu danh mục tự tạo, hiện xác nhận
+-	Tiến hành chuyển các khoản chi tiêu được liên kết qua các danh mục chi tiêu khác
+o	Nếu không chỉ định danh mục chi tiêu, tự động chuyển về danh mục “Khác”
+o	Nếu được chỉ định danh mục mới làm đích, các khoản chi tiêu được liên kết sẽ được chuyển về cho danh mục đích
+	Cập nhật danh mục mới cho các khoản chi tiêu
+-	Tiến hành chuyển danh mục chỉ định xóa vào thùng rác
+-	Xóa mềm danh mục chi tiêu được chỉ định trong 30 ngày
+
+BP-CATE-3. Quy trình Cập Nhật Danh Mục Chi Tiêu
+-	Người dùng chọn một danh mục chi tiêu cần cập nhật
+-	Kiểm tra danh mục đích có hợp lệ và còn hoạt động
+-	Kiểm tra loại danh mục
+o	Nếu danh mục chỉ định là danh mục mặc định của hệ thống, hiển thị thông báo không thể cập nhật
+o	Nếu danh mục chỉ định là danh mục tự tạo, tiến tới bảng chỉnh sửa
+-	Người dùng nhập và chọn những thông tin cần cập nhật
+-	Xác thực dữ liệu người dùng nhập
+o	Nếu người dùng xóa tên và không nhập tên mới
+	Khởi tạo tên cho danh mục theo mẫu
+o	Nếu người dùng cập nhật tên mới
+	Kiểm tra trùng danh mục trong hệ thống
+	Kiểm tra giới hạn ký tự
+-	Tiến hành cập nhật danh mục
+o	Cập nhật danh mục 
+o	Cập nhật danh mục trong khoản chi tiêu
+o	Dữ liệu hiển thị trong lịch sử được cập nhật tương ứng
+o	Cập nhật danh mục trong thống kê và báo cáo
+-	Thông báo cập nhật thành công
+
+BR-SM-1. Tên nguồn tiền không được vượt quá 100 ký tự.
+BR-SM-2. Nếu người dùng chưa đặt tên cho nguồn tiền, chương trình sẽ cấp tên “Nguồn Tiền Mới <Số>”, với số tăng dần theo số lượng nguồn tiền chưa đặt tên.
+BR-SM-3. Tên nguồn tiền không được trùng với các nguồn tiền khác thuộc cùng một tài khoản người dùng.
+BR-SM-4. Để sử dụng các tính năng Chi tiêu hoặc Thu nhập, người dùng phải có ít nhất một nguồn tiền con.
+BR-SM-5. Số dư ban đầu của nguồn tiền có thể là số âm hoặc dương tùy thuộc vào loại nguồn tiền mà người dùng muốn định nghĩa.
+BR-SM-6. Người dùng chỉ được phép xem và thao tác với các nguồn tiền thuộc tài khoản của chính mình.
+BR-SM-7. Khi nguồn tiền bị xóa, các giao dịch liên quan sẽ được chuyển vào thùng rác tạm thời theo.
+BR-SM-8. Các nguồn tiền mặc định của hệ thống gồm:
+“Ví (Wallet), Ví Điện Tử (E-Wallet), Tiết Kiệm (Savings), Khoản Nợ (Debt)”.
+BR-SM-8. Bên trong các nguồn tiền, sẽ có các nhánh nhỏ hơn, ví dụ Ví điện tử sẽ có các nguồn con là các ngân hàng hoặc các ví điện tử.
+BR-SM-9. Người dùng không được phép xóa các nguồn tiền mặc định của hệ thống.
+BR-SM-10. Người dùng không được phép chỉnh sửa loại của nguồn tiền mặc định.
+BR-SM-11. Mỗi nguồn tiền chỉ được thuộc một loại nguồn tiền tại một thời điểm.
+BR-SM-12. Người dùng được phép chuyển tiền giữa các nguồn tiền thuộc tài khoản của mình.
+BR-SM-13. Khi thực hiện chuyển tiền, số dư của nguồn tiền gửi và nguồn tiền nhận phải được cập nhật tương ứng.
+BR-SM-14. Số tiền chuyển phải là số dương.
+BR-SM-15. Số tiền chuyển không được vượt quá số dư hiện tại của nguồn tiền gửi.
+BR-SM-16. Không được phép chuyển tiền cho cùng một nguồn tiền.
+BR-SM-17. Thời gian chuyển tiền không được lớn hơn thời gian hiện tại của hệ thống.
+BR-SM-18. Nguồn tiền đã bị xóa không được phép sử dụng trong giao dịch nếu chưa khôi phục.
+BR-SM-19. Khi một giao dịch Chi tiêu hoặc Thu nhập được tạo, cập nhật hoặc xóa, số dư của nguồn tiền liên kết phải được cập nhật tương ứng.
+BR-SM-20. Hệ thống phải lưu lịch sử thay đổi số dư của nguồn tiền để phục vụ thống kê và truy vết (future).
+BR-SM-21. Bên trong các loại nguồn tiền có thể tồn tại các nguồn tiền con.
+Ví Điện Tử → MoMo, ZaloPay
+Ngân Hàng → MB Bank, Vietcombank
+	BR-SM-22. Mỗi nguồn tiền con chỉ được liên kết với một nguồn tiền cha tại một thời điểm.
+	BR-SM-23. Chuẩn QR Code của nguồn tiền loại Ví Điện Tử phải tuân theo chuẩn thanh toán tại Việt Nam (future).
+	BR-SM-24. QR Code chỉ được phép gắn với nguồn tiền thuộc loại Ví Điện Tử hoặc Ngân Hàng (future).
+BR-SM-25. Người dùng không được phép xóa nguồn tiền đang được sử dụng bởi giao dịch định kỳ nếu chưa xử lý hoặc chuyển liên kết.
+BR-SM-26. Hệ thống phải tự động cập nhật tổng số dư sau mỗi thay đổi liên quan đến nguồn tiền.

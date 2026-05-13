@@ -22,3 +22,12 @@
 - Làm kỹ quy trình nghiệp vụ 00:26
 	1.4.1 BP-ACC
 	1.4.2 BP-ET
+- Làm kỹ quy trình nghiệp vụ 2 16:52
+	1.4.3. BP-CATE
+	1.4.4. BP-IT
+	1.4.5. BP-CATI
+	1.4.6. BP-SM (60%)
+- Sửa một số quy tắc nghiệp vụ 16:52
+	1.3.6. BR-SM
+- Thêm một số quy tắc nghiệp vụ 16:54
+	1.3.6. BR-SM (27-31)
