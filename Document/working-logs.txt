@@ -31,3 +31,17 @@
 	1.3.6. BR-SM
 - Thêm một số quy tắc nghiệp vụ 16:54
 	1.3.6. BR-SM (27-31)
+	
+14.05.2026
+- Vẽ Diagram 17:02
+	Use Case Tổng quát
+	Use Case Phân rã
+		ACC
+		ET
+		CATE
+		IT
+		CATI
+		SM
+		BUD
+		TF
+		
