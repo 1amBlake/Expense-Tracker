@@ -45,3 +45,13 @@
 		BUD
 		TF
 		
+15.05.2026
+- Hoàn tất UCD
+- Hoàn thành BP-TF
+
+30.05.2026
+- Hoàn tất chưa kiểm tra 19:21
+	BP-BUD
+	BP-RE
+		BP-RE-1 (Đã chỉnh sửa)
+		

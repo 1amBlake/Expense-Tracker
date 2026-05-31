@@ -1,0 +1,34 @@
+30.05.2026
+- Cần cập nhật
+	BR:
+		BR-ACC-<num>
+		BR-ET-<num>
+		BR-CATE-<num>
+		BR-IT-<num>
+		BR-CATI-<num>
+		BR-SM-<num>
+		BR-TF-<num>
+		BR-BUD-<num>
+		BR-RE-<num>
+		BR-SRP-<num>
+		BR-BUR-<num>
+		BR-SD-<num>
+		BR-HIS-<num>
+		BR-WRE-<num>
+		BR-DASH-<num>
+	BP: 
+		BP-ACC-<num>
+		BP-ET-<num>
+		BP-CATE-<num>
+		BP-IT-<num>
+		BP-CATI-<num>
+		BP-SM-<num>
+		BP-TF-<num>
+		BP-BUD-<num>
+		BP-RE-<num>
+		BP-SRP-<num>
+		BP-BUR-<num>
+		BP-SD-<num>
+		BP-HIS-<num>
+		BP-WRE-<num>
+		BP-DASH-<num>
