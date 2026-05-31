@@ -54,4 +54,8 @@
 	BP-BUD
 	BP-RE
 		BP-RE-1 (Đã chỉnh sửa)
-		
+	
+31.05.2026
+- Hoàn thành chưa kiểm tra 17:01
+	BP-RE
+		BP-RE-2
