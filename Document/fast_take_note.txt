@@ -1,45 +1,16 @@
-BR-RE-1. Tên giao dịch định kỳ không được vượt quá 100 ký tự
-BR-RE-2. Nếu người dùng không nhập tên giao dịch định kỳ, chương trình sẽ tự cấp tên theo cấu trúc:
-	“Giao Dịch Định Kỳ <num>”
-BR-RE-3. Giao dịch định kỳ có các thiết lập chu kỳ sau
-	“Ngày, Tuần, Tháng, Năm, Chưa Thiết Lập”
-BR-RE-4. Các giao dịch định kỳ người dùng chưa thiết lập chu kỳ sẽ tự động gán vào chưa thiết lập
-BR-RE-5. Giao dịch định kỳ hỗ trợ hai chế độ thực hiện:
-	Lựa chọn 1: Giao dịch định kỳ tự động
-	Lựa chọn 2: Giao dịch định kỳ thủ công
-BR-RE-6. BR-RE-6. Để sử dụng chế độ giao dịch định kỳ tự động, người dùng phải:
-	Liên kết giao dịch với một nguồn tiền hợp lệ
-	Thiết lập chu kỳ giao dịch
-	Cấu hình thời gian bắt đầu giao dịch
-	Ngân sách có thể là tùy chọn.
-BR-RE-7. Với giao dịch định kỳ thủ công, hệ thống phải gửi thông báo khi giao dịch đến hạn.
-BR-RE-8. Người dùng có thể:
-	Thực hiện thanh toán
-	Bỏ qua giao dịch đến hạn
-BR-RE-9. Giao dịch bị bỏ qua vẫn phải được hiển thị trong danh sách giao dịch định kỳ cho đến khi được xử lý.
-BR-RE-10. Số tiền của giao dịch định kỳ phải là số dương.
-BR-RE-11. Người dùng chỉ được phép xem và thao tác với giao dịch định kỳ thuộc tài khoản của chính mình.
-BR-RE-12. Người dùng không được phép chỉnh sửa giao dịch định kỳ đã bị xóa mềm nếu chưa khôi phục.
-BR-RE-13. Khi giao dịch định kỳ được thực hiện, số dư của nguồn tiền và ngân sách liên kết phải được cập nhật tương ứng.
-BR-RE-14. Hệ thống phải hỗ trợ cấu hình nhiều mốc nhắc nhở khác nhau tùy theo chu kỳ giao dịch định kỳ:
-	Ngày: 12 giờ/ 6 giờ/ 1 giờ/ hạn
-	Tuần: 5 ngày / 3 ngày / 1 ngày/ chuyển sang giờ /hạn
-	Năm: 6 tháng / 3 tháng / 1 tháng / 2 tuần / 1 tuần / chuyển sang tuần / chuyển sang ngày / hạn
-BR-RE-15. Thời gian bắt đầu của giao dịch định kỳ không được lớn hơn thời gian kết thúc.
-BR-RE-16. Giao dịch định kỳ phải có trạng thái hoạt động hoặc tạm dừng.
-BR-RE-17. Người dùng được phép tạm dừng giao dịch định kỳ mà không cần xóa giao dịch.
-BR-RE-18. Khi giao dịch định kỳ đến hạn, hệ thống phải tạo một bản ghi chờ xử lý cho kỳ thanh toán tương ứng.
-BR-RE-19. Người dùng có thể xử lý từng kỳ thanh toán bằng một trong các lựa chọn:
-	Đã thanh toán
-	Chưa thanh toán
-	Bỏ qua
-	BR-RE-20. Khi người dùng chọn "Đã thanh toán", hệ thống phải:
-		Tạo giao dịch tài chính tương ứng
-		Cập nhật nguồn tiền
-		Cập nhật ngân sách liên kết (Nếu có)
-		Lưu lịch sử thực hiện giao dịch
-	BR-RE-21. Khi người dùng chọn "Bỏ qua", hệ thống phải đánh dấu kỳ thanh toán là đã bỏ qua và không tạo giao dịch tài chính
-BR-RE-22. Khi người dùng mở ứng dụng hoặc truy cập chức năng giao dịch định kỳ, hệ thống phải kiểm tra các kỳ thanh toán đến hạn hoặc quá hạn chưa được xử lý.
-BR-RE-23. Các kỳ thanh toán quá hạn chưa được xử lý phải được lưu riêng trong danh sách chờ xử lý cho đến khi người dùng thực hiện hoặc bỏ qua
-BR-RE-24. Một giao dịch định kỳ có thể chứa nhiều kỳ thanh toán chưa được xử lý đồng thời.
-BR-RE-25. Người dùng được phép xử lý độc lập từng kỳ thanh toán của cùng một giao dịch định kỳ
+BR-ACC-1. Người dùng phải đăng nhập vào hệ thống trước khi sử dụng các chức năng của chương trình.
+BR-ACC-2. Email / Username được đăng ký cho tài khoản không được trùng với tài khoản đã tồn tại trong hệ thống.
+BR-ACC-3. Mật khẩu phải chứa tối thiểu 6 ký tự.
+BR-ACC-4. Username phải chứa tối thiểu 3 ký tự.
+BR-ACC-5. Email phải đúng định dạng hợp lệ.
+BR-ACC-6. Khi người dùng đăng ký tài khoản, cần nhập tất cả thông tin yêu cầu.
+BR-ACC-7. Người dùng đăng nhập bằng username/email và mật khẩu.
+BR-ACC-8. Tài khoản đăng nhập phải tồn tại trong hệ thống.
+BR-ACC-9. Mật khẩu phải khớp với tài khoản tương ứng trong hệ thống.
+BR-ACC-10. Trên một thiết bị chỉ được tồn tại một phiên đăng nhập tại một thời điểm.
+BR-ACC-11. Khi người dùng đăng xuất, thông tin phiên đăng nhập phải được xóa.
+BR-ACC-12. Khi người dùng sử dụng chức năng quên mật khẩu, cần nhập gmail đã đăng ký (future).
+BR-ACC-13. Người dùng phải nhập đúng mã OTP hoặc xác thực thành công để sử dụng chức năng quên mật khẩu (future).
+BR-ACC-14.  Mật khẩu được thay đổi không được trùng với 3 mật khẩu gần nhất, bao gồm cả mật khẩu hiện tại (future).
+BR-ACC-15. Mật khẩu phải được mã hóa khi lưu trữ.
+BR-ACC-16. Mật khẩu không được lưu trữ dưới dạng plain text, hay chữ thông thường.
